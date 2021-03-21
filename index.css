@@ -1,0 +1,129 @@
+
+/****************
+   NAV SECTION
+****************/
+#mob-menu .btn {
+    display: inline-block;
+}
+
+/****************
+   HERO SECTION
+****************/
+.main{
+    background-image: url("https://cdn2.expertreviews.co.uk/sites/expertreviews/files/2020/11/microsoft_surface_laptop_go_review_2_0.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;  
+}
+
+
+ .title {
+    font-size: 2.92rem;
+    line-height: 110%;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left:4.5rem;
+    padding-top: 2rem;
+}
+
+.title b {
+    margin-left: 0px;
+}
+
+/****************
+    FEATURES
+****************/
+section.features {
+    background-color: #f2f2f2;
+    padding-top: 2rem;
+}
+
+.feature-img {
+    border-radius: 30px;
+
+}
+
+/****************
+    SLIDER
+****************/
+.image1 {
+    background-color: rgb(163, 163, 163);
+    background-blend-mode: multiply;
+}
+.review1 {
+    max-width: 6rem;
+    margin-right: 1rem;
+}
+.review2 {
+    max-width: 7rem;
+    margin-right: 1rem;
+}
+.review3 {
+    max-width: 6rem;
+}
+
+/****************
+    SPEC TABLE
+****************/
+
+thead tr th{
+    background-color: #f2f2f2;
+}
+
+.sb-wrapper1 .sb-pic {
+    padding-top: 24px;
+}
+
+
+/****************
+    MOB-SPEC TABLE
+****************/
+.mob-table {
+    position: relative;
+    margin-top: 2vw;
+    
+    margin-bottom: 5vw;
+}
+.mob-head {
+    position: sticky;
+    top:50px;
+    
+}
+
+/****************
+     DIVIDER
+****************/
+
+.img-divider {
+    background-image: url("./img/avi-richards-Z3ownETsdNQ-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+     
+    
+}
+
+
+/****************
+   ACCESSORIES
+****************/
+
+.accessories {
+    margin-bottom: 5vw;
+
+    margin-top: 4vw; 
+}
+
+
+/****************
+      FOOTER
+****************/
+
+footer {
+    background-color: #f2f2f2 !important;
+}
+
+.social-icon {
+    display: inline;
+    margin-right: 1rem;
+}
