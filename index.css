@@ -1,16 +1,39 @@
+/****************
+    GENERAL
+****************/
 
+.section {
+    padding-bottom: 4rem;
+}
+
+.top {
+    margin-top: 2rem;
+}
+
+.btn {
+    border: 1px soli rgb(30, 136, 229);
+    border-radius: 18px;
+    margin-top:1px;
+    padding: 0 25px;
+    font-weight: 700;
+}
 /****************
    NAV SECTION
 ****************/
 #mob-menu .btn {
     display: inline-block;
 }
-
+.nav-list {
+    font-weight: 700;
+}
+.sidenav a {
+    font-weight: 700 !important;
+}
 /****************
    HERO SECTION
 ****************/
 .main{
-    background-image: url("https://cdn2.expertreviews.co.uk/sites/expertreviews/files/2020/11/microsoft_surface_laptop_go_review_2_0.jpg");
+    background:url("https://cdn2.expertreviews.co.uk/sites/expertreviews/files/2020/11/microsoft_surface_laptop_go_review_2_0.jpg") ;
     background-size: cover;
     background-position: center;
     height: 95vh;  
@@ -21,15 +44,26 @@
     font-size: 2.92rem;
     line-height: 110%;
     font-weight: 400;
-    margin-top: 0px;
+    margin-bottom: 7rem;
     margin-left:4.5rem;
-    padding-top: 2rem;
+    padding: 0rem;
+    
 }
 
 .title b {
     margin-left: 0px;
 }
 
+
+@media screen and (max-width: 600px){
+    .main {
+        height: 75vh;
+    }
+    
+    .title {
+        margin-left: 1rem;
+    }
+}
 /****************
     FEATURES
 ****************/
@@ -90,6 +124,24 @@ thead tr th{
     
 }
 
+.tab1{
+    margin-bottom: 0;
+}
+.tab2 .fake-header th{
+    height: 0 !important;
+    background-color: white !important;
+    color:white;
+}
+.tab2 .tr {
+    border-bottom-width:0;
+}
+.pad-row{
+    padding-right: 54px;
+}
+.buy-row {
+    position:relative;
+    top: 0;
+}
 /****************
      DIVIDER
 ****************/
@@ -114,6 +166,9 @@ thead tr th{
     margin-top: 4vw; 
 }
 
+.card-title {
+    font-weight: 400 !important;
+}
 
 /****************
       FOOTER
