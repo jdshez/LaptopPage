@@ -12,20 +12,21 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link rel="stylesheet" href="index.css">
+  <script src="./observer.js" defer></script>
   <title>Saturn Book</title>
 </head>
 <body>
 
   <!-- navbar -->
-  <div class="navbar-fixed">
-      <nav class="nav-wrapper grey darken-3">
+  <div class="navbar-fixed black">
+      <nav class="nav-wrapper">
           <div class="container">
-              <a href="#hero" class="brand-logo">Saturn<em>Pro</em></a>
+              <a href="#hero" class="brand-logo"><img src="/img/LogoMakr-7Pct3Q-white.png"></a>
               <a href="#" class="sidenav-trigger" data-target="mob-menu"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down nav-list">
-                <li><a href="#features">FEATURES</a></li>
-                <li><a href="#spec">SPEC</a></li>
-                <li><a href="#accessories">ACCESSORIES</a></li>
+                <li class="nav-item"><a href="#features">FEATURES</a></li>
+                <li class="nav-item"><a href="#spec">SPEC</a></li>
+                <li class="nav-item"><a href="#accessories">ACCESSORIES</a></li>
                 <li><a class="btn blue darken-1 waves-effect waves-light" href="#hero">BUY</a></li>
             </ul>        
           </div>
@@ -35,14 +36,14 @@
         <li><a href="#features">FEATURES</a></li>
         <li><a href="#spec-mob">SPEC</a></li>
         <li><a href="#accessories-mob">ACCESSORIES</a></li>
-        <li><a class="btn blue darken-1 waves-effect waves-light center" href="#hero">BUY</a></li>
+        <li><a class="btn blue darken-1 waves-effect waves-light center mob-btn" href="#hero">BUY</a></li>
       </ul>
   
 
   <!-- Hero -->
   <section class="hero scrollspy" id="hero">
    
-    <div class="main valign-wrapper">      
+    <div class="main center">      
       <div class="tag-line ">   
         <div class="title center">The ultimate <em><b>Pro</b></em></div>
       </div>
@@ -116,7 +117,7 @@
     <thead>
       <tr>
         <th><h3>Find your Saturn<em>Pro</em></h3></th>
-        <th>
+        <th class="th-13">
           <div class="sb-wrapper1">
             <img class="sb-pic" src="https://www.apple.com/v/macbook-pro/z/images/overview/find_the_right_mbp_13__e8rbl6qpi96y_large.jpg" alt="">
             <div>Saturn<em>Pro</em> 13" model</div>
@@ -328,7 +329,7 @@
   </div>
   <div class="footer-copyright">
     <div class="container grey-text text-darken-1">
-    © 2020 Copyright Saturn
+      <span>© 2020 Copyright</span> <img class="ft-logo" src="img/LogoMakr-5MgTJP-black.png">
     <a class="right grey-text text-darken-1" href="#hero">Top</a>
     </div>
   </div>
@@ -341,7 +342,7 @@
   <script>
     $(document).ready(function(){
       $('.scrollspy').scrollSpy();
-        $('.slider').slider();
+        $('.slider').slider({interval: 2200});
         $('.sidenav').sidenav();
     });
   </script>
