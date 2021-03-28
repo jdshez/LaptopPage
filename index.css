@@ -70,7 +70,7 @@
 ****************/
 .main{
     /*background:url("https://cdn2.expertreviews.co.uk/sites/expertreviews/files/2020/11/microsoft_surface_laptop_go_review_2_0.jpg") ;*/
-    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("./img/laptop-hero.jpg");
+    background-image:url("./img/laptop-hero-xl.jpg");
     background-size: cover;
     background-position: center;
     height: 95vh; 
@@ -88,10 +88,10 @@
     transform: translate(-50%, -50%);
     padding: 0rem;
     color: white;
-    animation: fade-in 1.5s ease;
+    animation: fade-in 1.5s ease 1.5s;
 }
 .title b{
-    animation: glow 1.5s ease;
+    animation: glow 1.5s ease 1.5s;
 }
 
 @-webkit-keyframes fade-in {
