@@ -21,7 +21,7 @@
   <div class="navbar-fixed black">
       <nav class="nav-wrapper">
           <div class="container">
-              <a href="#hero" class="brand-logo"><img src="/img/Logo-white.png"></a>
+              <a href="#hero" class="brand-logo"><img class="white-logo" src="img/Logo-white.png"></a>
               <a href="#" class="sidenav-trigger" data-target="mob-menu"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down nav-list">
                 <li class="nav-item"><a href="#features">FEATURES</a></li>
@@ -42,7 +42,6 @@
 
   <!-- Hero -->
   <section class="hero scrollspy" id="hero">
-   
     <div class="main center">      
       <div class="tag-line ">   
         <div class="title center">The ultimate <em><b>Pro</b></em></div>
@@ -102,9 +101,9 @@
         <img src="./img/kat-stokes-AUrGRpQ-hKM-unsplash.jpg"> 
         <div class="caption right-align">
           <h3>The experts agree...</h3>          
-          <img class="review1" src="./img/techradar.png" alt="5 stars techradar">
-          <img class="review2" src="./img/shopperbestbuy.png" alt="5 stars computer shopper">
-          <img class="review3" src="./img/T3.png" alt="5 stars t3">
+          <img class="review1" src="img/techradar.png" alt="5 stars techradar">
+          <img class="review2" src="img/shopperbestbuy.png" alt="5 stars computer shopper">
+          <img class="review3" src="img/T3.png" alt="5 stars t3">
         </div>
       </li>
     </ul>
@@ -291,6 +290,15 @@
   </div>
 </section>
  
+<!-- floating button -->
+
+<div class="fixed-action-btn ">
+  <a class="btn-floating btn-large blue darken-1" href="#hero">
+    <img src="./img/LogoMakr-7Pct3Q-white.png" class="fab-logo">
+  </a>
+  
+</div>
+      
 
 <!-- footer -->
 <footer class="page-footer ">
@@ -344,6 +352,7 @@
       $('.scrollspy').scrollSpy();
         $('.slider').slider({interval: 2200});
         $('.sidenav').sidenav();
+        $('.fixed-action-btn').floatingActionButton();
     });
   </script>
 </body>
